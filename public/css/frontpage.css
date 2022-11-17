@@ -1,0 +1,56 @@
+/* top part start */
+.background-all {
+  margin-top: 5%;
+  height: 120vw;
+}
+.top-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info-frontpage{
+  display: flex;
+}
+.contact-info-frontpage div{
+  margin-left: 20px;
+  font-size: calc(10px + 1vw);
+}
+.contact-info-frontpage a{
+  font-size: calc(18px + 1vw);
+
+}
+
+.button-link{
+  text-decoration: none;
+  position: absolute;
+  bottom:5%;
+}
+.name-title {
+  background-image: url("https://res.cloudinary.com/dfrda73uc/image/upload/v1668642920/donGions%20imgs/Captura_de_pantalla_2022-11-17_a_las_0.54.56_cbtafz.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0.9vw 1vw;
+}
+.name{
+  font-size: calc(10px + 2vw);
+}
+.title{
+  font-size: calc(8px + 1vw);
+}
+.studies{
+  font-size: calc(4px + 1vw);
+}
+/* top part end */
+
+/* cover letter body start */
+.cover-letter-body{
+  padding-top: 5%;
+  font-size: calc(12px + .5vw);
+}
+.cover-letter-body article{
+  font-size: calc(10px + .5vw);
+  margin-top: 2%;
+}
+
+
+/* cover letter body end */
