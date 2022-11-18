@@ -1,0 +1,88 @@
+
+
+
+
+
+
+/* projects */
+.projects-box{
+  display: flex;
+  justify-content: space-evenly;
+}
+.projects-box img{
+  height: 100%;
+  max-height: calc(30px + 5vw);
+  transition: all 1s ease-in-out;
+}
+.projects-box img:hover{
+  scale: 1.2;
+  transition: all 0.2s ease-in-out;
+
+}
+.projects-box div{
+  display: block;
+  font-size: calc(12px + 1vw);
+  text-align: center;
+}
+.project-text-box{
+  padding: 5px 15px;
+  box-shadow: 2px 2px 2px 2px black;
+  text-align: left;
+  width: 90%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+.project-text-box strong{
+  font-size: calc(18px + 1vw);
+  text-indent: 15px;
+}
+.project-text-box div{
+  font-size: calc(12px + 1vw);
+  text-indent: 15px;
+}
+.project-text-box article{
+  text-indent: 15px;
+  text-align: justify;
+
+}
+
+
+
+/* hobbies */
+.box-shadows{
+  padding: 15px;
+  box-shadow: 0 2vw 4vw rgba(1, 0, 0, 0.377);
+}
+.hobbies-box{
+  font-size: calc(15px + 1vw);
+  display: flex;
+  justify-content: space-around;
+}
+.hobbies-box button:hover{
+  box-shadow: 0 1vw 1vw rgb(1, 0, 0, 0.4);
+}
+.hobbies-box i:hover {
+  scale: 1.4;
+  transition: all 0.3s ease-in-out;
+}
+.hobbies-box i{
+  transition: all 0.1s ease-in-out;
+}
+
+.hobbie-example-text{
+  padding-top: 2%;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  margin: auto;
+  font-size: calc(10px + 0.5vw);
+}
+
+.info-sub-titles{
+  font-size: calc(15px + 1.5vw);
+  padding-left:20px;
+  text-shadow: 1px 1px rgb(123, 120, 120);
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  background-image: url("https://res.cloudinary.com/dfrda73uc/image/upload/v1668783563/donGions%20imgs/istockphoto-995576522-1024x1024_ohdy9q.jpg");
+  background-repeat: no-repeat;
+}

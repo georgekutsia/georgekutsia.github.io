@@ -2,7 +2,9 @@ import React from 'react'
 
 function MyInfo() {
   return (
-    <div>MyInfo</div>
+    <div>
+        <div className='info-sub-titles'> Info</div>
+    </div>
   )
 }
 

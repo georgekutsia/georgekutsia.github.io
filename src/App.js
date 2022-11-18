@@ -1,13 +1,12 @@
-import { Frontpage, Contact } from './screens'
+import { FrontpageScreen, ContactScreen } from './screens'
 import { Route, Routes} from 'react-router-dom'
-
 
 function App() {
   return (
     <div className='container'>
       <Routes>
-        <Route  path="/" element={<Frontpage/>} /> 
-        <Route  path="/contact" element={<Contact/>} /> 
+        <Route  path="/" element={<FrontpageScreen/>} /> 
+        <Route  path="/contact" element={<ContactScreen/>} /> 
     </Routes>
     </div>
   );

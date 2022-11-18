@@ -1,2 +1,2 @@
-export {default as Frontpage} from "./frontpage/Frontpage.jsx"
-export {default as Contact} from "./contact/Contact.jsx"
+export {default as FrontpageScreen} from "./frontpage/FrontpageScreen.jsx"
+export {default as ContactScreen} from "./contact/ContactScreen.jsx"
