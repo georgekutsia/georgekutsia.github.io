@@ -11,7 +11,7 @@ function Dongions() {
         </article>
         <div>What I used:</div>
         <article>Express.js, HTTP-errors, Morgan, Mongoose, Multer, Bcrypt and Cloudinary, React.js, Moment, Framer-motion, CORS, Bootstrap and Font-Awesome, among others.</article>
-        <a href="https://www.google.com">Link to the Web Page</a>
+        <a href="https://github.com/georgekutsia/donGions" aria-disabled >Link to the Web Page</a>
     </div>
   )
 }

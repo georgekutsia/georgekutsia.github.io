@@ -48,16 +48,16 @@ function FrontpageScreen() {
           </div>
       </div>
       <div>
-      {english && <CoverLetterEnglish /> }
-      {spanish &&  <CoverLetterSpanish />}
+          {english && <CoverLetterEnglish /> }
+          {spanish &&  <CoverLetterSpanish />}
       </div>
-      <div>
-      { english && 
-        <Link className='download-link'><i className="fa-solid fa-download"></i> Download this cover letter in English</Link>
-      }
-      {spanish &&
-        <Link className='download-link'><i className="fa-solid fa-download"></i> Descargar la carta en Spanish</Link>
-      }
+      <div> 
+            { english && 
+              <Link className='d-flex justify-content-end download-link'><i className="fa-solid fa-download"></i> Download this cover letter in English</Link>
+            }
+            {spanish &&
+              <Link className='d-flex justify-content-end download-link'><i className="fa-solid fa-download"></i> Descargar la carta en Spanish</Link>
+            }
       </div>
       { english && 
       <Link className='button-link my-btn btn-more-info' to="/contact">More about me</Link> }
