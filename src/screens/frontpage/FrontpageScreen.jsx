@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import {ContactInfo, CoverLetterEnglish, CoverLetterSpanish, PdfSpanish, WhoAmI} from '../../components'
+import {ContactInfo, CoverLetterEnglish, CoverLetterSpanish, PdfEnglish, PdfSpanish, WhoAmI} from '../../components'
 
 function FrontpageScreen() {
   const [english, setEnglish] = useState(true)
@@ -53,7 +53,7 @@ function FrontpageScreen() {
       </div>
       <div> 
             { english && 
-              <Link className='d-flex justify-content-end download-link'><i className="fa-solid fa-download"></i> Download this cover letter in English</Link>
+            <PdfEnglish/>
             }
             {spanish &&
               <PdfSpanish/>

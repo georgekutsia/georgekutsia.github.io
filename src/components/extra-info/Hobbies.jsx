@@ -77,8 +77,9 @@ function Hobbies() {
         {text4h && <div className='text-on-hover'>Travel</div> }
         {text5h && <div className='text-on-hover'>Create</div> }
         {text6h && <div className='text-on-hover'>Family</div> }
-        {text7h && <div className='text-on-hover'>Music</div> }
+        {text7h && <div className='text-on-hover'>Arts</div> }
         {text8h && <div className='text-on-hover'>Martial Arts</div> }
+        {text9h && <div className='text-on-hover'>Sports</div> }
         <div className='info-sub-titles'>My hobbies</div>
         <div className='hobbies-box box-shadows'>
           <button onMouseOver={handleText2hOver} onMouseOut={handleText2hOut} onClick={handleText2}> <i className={text2? "fa-solid fa-puzzle-piece fa-spin":"fa-solid fa-puzzle-piece"}></i> </button>
@@ -87,7 +88,7 @@ function Hobbies() {
           <button onMouseOver={handleText4hOver} onMouseOut={handleText4hOut} onClick={handleText4}> <i className={text4? "fa-solid fa-plane-departure fa-spin":"fa-solid fa-plane-departure"}></i> </button>
           <button onMouseOver={handleText5hOver} onMouseOut={handleText5hOut} onClick={handleText5}> <i className={text5? "fa-solid fa-scroll fa-spin":"fa-solid fa-scroll"}></i> </button>
           <button onMouseOver={handleText6hOver} onMouseOut={handleText6hOut} onClick={handleText6}> <i className={text6? "fa-solid fa-children fa-spin":"fa-solid fa-children"}></i> </button>
-          <button onMouseOver={handleText7hOver} onMouseOut={handleText7hOut} onClick={handleText7}> <i className={text7? "fa-solid fa-music fa-spin":"fa-solid fa-music"}></i> </button>
+          <button onMouseOver={handleText7hOver} onMouseOut={handleText7hOut} onClick={handleText7}> <i className={text7? "fa-solid fa-masks-theater fa-spin":"fa-solid fa-masks-theater"}></i> </button>
           <button onMouseOver={handleText8hOver} onMouseOut={handleText8hOut} onClick={handleText8}> <i className={text8? "fa-solid fa-user-ninja fa-spin":"fa-solid fa-user-ninja"}></i> </button>
           <button onMouseOver={handleText9hOver} onMouseOut={handleText9hOut} onClick={handleText9}> <i className={text9? "fa-solid fa-volleyball fa-spin":"fa-solid fa-volleyball"}></i> </button>
         </div>
@@ -135,20 +136,82 @@ function Hobbies() {
                     </div>}
             </FadeInOut>
             <FadeInOut show={text4} duration={500}>
-                {text4 && <div> I`ve travelled enough end seen a lot of people</div>}
+                {text4 && 
+                      <div> 
+                          World is a big place and even in Spain, where I`ve lived the most, there are still lots of places I havent seen. it's amazing
+                          the number of cultures, ideas, traditions, foods, values, landscapes, experiences, etc., that can be discovered by experimenting
+                          the world at its best and worst. There are still many places that I have to visit and luckily my partner has the same passion and 
+                          ease to move, so who knows where my trip will continue
+                      </div>}
             </FadeInOut>
             <FadeInOut show={text5} duration={500}>
-                {text5 && <div> In my free time sometimes i like sumerging myself in a fantasy world... blablabla</div>}
+                {text5 && 
+                      <div>
+                          <div>
+                            I like to think of myself as the <span>"go to"</span> person, with variety knowledge and resources, combining them to come up with some solution that no one has thought of.
+                          </div>
+                          <div>
+                            I also like to create new board games, write songs, stories, poems, fantasy stories... I enjoy combining ideas and objects, seeing them from a new perspective.
+                          </div>
+                          <div>
+                            Because of all this, programming for me is literally like magic: taking a sequence of numbers and letters to manipulate digital reality.
+                          </div>
+                      </div>}
             </FadeInOut>
             <FadeInOut show={text6} duration={500}>
-                {text6 && <div> My kids and family</div>}
+                {text6 && 
+                        <div> 
+                          <div>
+                            I grew up in a large family and although I don't have siblings, I never felt alone. Lots of friends and a healthy social life made me who I am, and even though I had many years of loneliness and hardship, it didn't change my desire for sociability.
+                          </div>
+                          <div>
+                          My children have become the greatest joy in my life and all the changes I make in it are for them and my partner, someone who has unconditionally supported me in my career change. I want to keep up with new technologies for them and improve everything possible to give them the life they deserve.
+                          </div>
+                        </div>}
             </FadeInOut>
             <FadeInOut show={text7} duration={500}>
-                {text7 && <div> Soy aficionado a muchas artes y la música es una de ellas. Aparte de tocar varios instrumentos de modo mediocre y cantar como un gato estreñido,
-                disfruto de casi todos los estilos musicales a los que encuentro algo sonoro</div>}
+                {text7 && 
+                          <div> 
+                            <div>
+                              I enjoy big variety of arts and try to create my own. From music and dance to literature and cinema, I try to participate and create my own works. 
+                            </div>
+                            <div>
+                              Luckily, as a child I was stimulated with all kinds of musical instruments, physical expressions and martial arts, so although I have failed in many, I can say that I have tried and I keep trying.
+                            </div>
+                            <div>
+                              I even worked like magician for children from time to time for a non profit organization a long time ago.
+                            </div>
+                          </div>}
             </FadeInOut>
             <FadeInOut show={text8} duration={500}>
-                {text8 && <div> i've practiced martial arts since i have memory</div>}
+                {text8 && 
+                          <div> 
+                            <div>
+                              My mother always considered that I should know how to defend myself and my loved ones, so she instilled in me a love for martial arts and contact sports.
+                              On the other hand, my father always says: instead of learning to fight in 20 years, learn to run in a month and that's it.
+                            </div>
+                            <div>
+                              I trained and taught self defense when I was studying at the university from children to the elderly. My shoulder injury prevented me from competing professionally,
+                              but in a martial art like Kung Fu or Muay Thai, competing is a very small part.                            
+                            </div>
+                            <div>
+                            I had the opportunity to put my skills to the test on more than one occasion working as a nightclub bouncer for a while, although solving tense situations with a verbal resolution was much more satisfying
+                            </div>
+                          </div>
+                  }
+            </FadeInOut>
+            <FadeInOut show={text9} duration={500}>
+                {text9 && 
+                          <div> 
+                            <div>
+                              I'm not afraid to play sports that I haven't tried yet and I'm decent at the ones that I have tried. A long list, predominantly volleyball and basketball,
+                              but staying in shape is priceless. As always, mens sana in corpore sano, helps to maintain a competitive and healthy mentality, collaborative depending on which sports. 
+                            </div>
+                            <div>
+                              Although it is not necessarily considered a sport, I was a competitor of Latin American and ballroom dance.                        
+                            </div>
+                          </div>
+                  }
             </FadeInOut>
         </div>
     </div>
