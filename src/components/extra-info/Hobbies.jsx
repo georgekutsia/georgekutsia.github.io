@@ -10,30 +10,34 @@ function Hobbies() {
   const [text6, setText6] = useState(false)
   const [text7, setText7] = useState(false)
   const [text8, setText8] = useState(false)
+  const [text9, setText9] = useState(false)
 
   const handleText1 = () =>{
-    setText1(!text1); setText2(false);setText3(false);setText4(false);setText5(false);setText6(false);setText7(false); setText8(false)
+    setText1(!text1); setText2(false);setText3(false);setText4(false);setText5(false);setText6(false);setText7(false); setText8(false);setText9(false);
   } 
   const handleText2= () =>{
-    setText1(false); setText2(!text2);setText3(false);setText4(false);setText5(false);setText6(false);setText7(false); setText8(false)
+    setText1(false); setText2(!text2);setText3(false);setText4(false);setText5(false);setText6(false);setText7(false); setText8(false);setText9(false);
   } 
   const handleText3 = () =>{
-    setText1(false); setText2(false);setText3(!text3);setText4(false);setText5(false);setText6(false);setText7(false); setText8(false)
+    setText1(false); setText2(false);setText3(!text3);setText4(false);setText5(false);setText6(false);setText7(false); setText8(false);setText9(false);
   } 
   const handleText4 = () =>{
-    setText1(false); setText2(false);setText3(false);setText4(!text4);setText5(false);setText6(false);setText7(false); setText8(false)
+    setText1(false); setText2(false);setText3(false);setText4(!text4);setText5(false);setText6(false);setText7(false); setText8(false);setText9(false);
   } 
   const handleText5 = () =>{
-    setText1(false); setText2(false);setText3(false);setText4(false);setText5(!text5);setText6(false);setText7(false); setText8(false)
+    setText1(false); setText2(false);setText3(false);setText4(false);setText5(!text5);setText6(false);setText7(false); setText8(false);setText9(false);
   } 
   const handleText6 = () =>{
-    setText1(false); setText2(false);setText3(false);setText4(false);setText5(false);setText6(!text6);setText7(false); setText8(false)
+    setText1(false); setText2(false);setText3(false);setText4(false);setText5(false);setText6(!text6);setText7(false); setText8(false);setText9(false);
   } 
   const handleText7 = () =>{
-    setText1(false); setText2(false);setText3(false);setText4(false);setText5(false);setText6(false);setText7(!text7);setText8(false)
+    setText1(false); setText2(false);setText3(false);setText4(false);setText5(false);setText6(false);setText7(!text7);setText8(false);setText9(false);
   } 
   const handleText8 = () =>{
-    setText1(false); setText2(false);setText3(false);setText4(false);setText5(false);setText6(false);setText7(false);setText8(!text8)
+    setText1(false); setText2(false);setText3(false);setText4(false);setText5(false);setText6(false);setText7(false);setText8(!text8);setText9(false);
+  } 
+  const handleText9 = () =>{
+    setText1(false); setText2(false);setText3(false);setText4(false);setText5(false);setText6(false);setText7(false);setText8(false);setText9(!text9);
   } 
 
   const [text1h, setText1h] = useState(false)
@@ -44,6 +48,7 @@ function Hobbies() {
   const [text6h, setText6h] = useState(false)
   const [text7h, setText7h] = useState(false)
   const [text8h, setText8h] = useState(false)
+  const [text9h, setText9h] = useState(false)
 
 
   const handleText1hOver = () => {setText1h(true)}
@@ -62,6 +67,8 @@ function Hobbies() {
   const handleText7hOut = () => {setText7h(false)}
   const handleText8hOver = () => {setText8h(true)}
   const handleText8hOut = () => {setText8h(false)}
+  const handleText9hOver = () => {setText9h(true)}
+  const handleText9hOut = () => {setText9h(false)}
   return (
     <div className='pt-5'>
         {text1h && <div className='text-on-hover'>Games</div> }
@@ -82,6 +89,7 @@ function Hobbies() {
           <button onMouseOver={handleText6hOver} onMouseOut={handleText6hOut} onClick={handleText6}> <i className={text6? "fa-solid fa-children fa-spin":"fa-solid fa-children"}></i> </button>
           <button onMouseOver={handleText7hOver} onMouseOut={handleText7hOut} onClick={handleText7}> <i className={text7? "fa-solid fa-music fa-spin":"fa-solid fa-music"}></i> </button>
           <button onMouseOver={handleText8hOver} onMouseOut={handleText8hOut} onClick={handleText8}> <i className={text8? "fa-solid fa-user-ninja fa-spin":"fa-solid fa-user-ninja"}></i> </button>
+          <button onMouseOver={handleText9hOver} onMouseOut={handleText9hOut} onClick={handleText9}> <i className={text9? "fa-solid fa-volleyball fa-spin":"fa-solid fa-volleyball"}></i> </button>
         </div>
         <div className='hobbie-example-text'>
             <FadeInOut show={text1} duration={500}>

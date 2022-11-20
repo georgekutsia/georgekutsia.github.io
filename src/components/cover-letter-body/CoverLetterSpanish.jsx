@@ -3,17 +3,21 @@ import React from 'react'
 function CoverLettereEnglish() {
   return (
     <div className='cover-letter-body'>
-      <div> Querido Elon Musk</div>
-      <article>Después de descubrir mi pasión por la programacion, he seguido tu historia por que tus valores y acciones
-       parecen alinearse con las mias. También quiero ser asquerosamente rico y hacer cosas locas </article>
-      <article> If there is something I learned at IronHack in those crazy months, is that you can never know enough and even if working alone seems
-      to be faster, partners help you do more and contribute with different skills. I like front end an enjoyed learning React.js and all the libraries
-      and frameworks that can be used to dive a client grate experience</article>
-      <article> Recently, just when I graduated, you fired lots of programers from Twitter and thats god sign that you are waiting for me. I have ideas on
-      how to improve the image of the company, check for real users, get rid of bots, increase client database and, most importantly, make you win even more money</article>
-      <article>If you are interested, I would love to explain everything to you and give you some advise about childrens names</article>
-      <article>Sincerly </article>
-      <div>George</div>
+      <div> Estimados Nikolai Petrov e Ivan Butkevych</div>
+      <article> 
+                Fue un placer leer sobre su aplicación, descargar la versión beta y probarla. El concepto es genial, lo aplicaría a muchas otras cosas.
+                Me encanta la idea de gamificarlo y mi cabeza no ha parado de pensar en que más se podría hacer, pero seguro que ya habéis pensado en todo.
+      </article>
+      <article> 
+                Durante muchos años hice artes marciales y el placer de concentrarme en tu actividad, la rutina, el esfuerzo, controlar la respiración, superar tus límites, la fuerza mental...
+                Aunque últimamente no soy un corredor muy ávido, <span> (por motivos de salud, peso y tiempo limitado)</span> entiendo perfectamente el placer que uno puede sentir y
+                aunque es un placer individual, como todos los placeres, a veces compartirlos los hace mucho mejores.
+      </article>
+      <article> 
+                Tal vez podamos ayudarnos mutuamente... Todavía tengo cosas que practicar y aprender y estoy deseando aplicar el conocimiento que he adquirido en el mundo real. Me gustaría
+                saber más sobre mi trabajo y llegar a un entendimiento de si somos una buena elección el uno para el otro.
+      </article>
+      <article>Gracias por su tiempo. Espero que podamos hablar pronto.</article>
     </div>
   )
 }

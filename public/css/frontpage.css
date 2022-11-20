@@ -43,9 +43,17 @@
 /* top part end */
 
 /* cover letter body start */
+.cover-letter-body span{
+  text-align: justify;
+  font-style: italic;
+  font-weight: 700;
+  font-size: calc(8px + 0.5vw);
+}
 .cover-letter-body {
   padding-top: 5%;
   font-size: calc(12px + 0.5vw);
+  text-indent: 20px;
+
 }
 .cover-letter-body article {
   font-size: calc(10px + 0.5vw);

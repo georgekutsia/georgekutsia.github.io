@@ -7,9 +7,10 @@
 }
 
 .little-more-text{
-  font-size: calc(8px + 1vw);
+  font-size: calc(10px + 0.6vw);
   text-indent: 5%;
   text-align:justify;
+  margin: 1% 5%;
 }
 /* Skills */
 .text-on-hover{

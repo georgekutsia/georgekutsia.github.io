@@ -4,7 +4,7 @@ import Skill from '../skills/Skill'
 function Skills() {
   return (
     <div >
-        <div className='info-sub-titles '>Some Skills</div>
+        <div className='info-sub-titles mt-5'>Some Skills</div>
         <div className='box-shadows'>
               <div className='hobbies-box'>
                   <Skill name={"HTML"} image={"https://res.cloudinary.com/dfrda73uc/image/upload/v1668898723/donGions%20imgs/Skills/pngwing.com_-_2022-11-19T193638.736_ndpvkf.png"} link={"https://developer.mozilla.org/es/docs/Web/HTML"} />

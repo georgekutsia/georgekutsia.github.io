@@ -6,6 +6,9 @@ export {default as Projects} from "./extra-info/Projects.jsx"
 export {default as Skills} from "./extra-info/Skills.jsx"
 export {default as Skill} from "./skills/Skill.jsx"
 export {default as FadeInOut} from "./fade/FadeInOut"
+export {default as PdfSpanish} from "./downloads/PdfSpanish"
+
+
 
 export {default as WorkExperience} from "./extra-info/WorkExperience.jsx"
 export {default as CoverLetterEnglish} from "./cover-letter-body/CoverLetterEnglish.jsx"
